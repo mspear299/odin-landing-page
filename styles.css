@@ -140,7 +140,7 @@ img{
 
 .authur{
   font-weight:bold;
-  width: 20%;
+  max-width: 20%;
   margin-left:200px;
 }
 
@@ -149,14 +149,21 @@ img{
   display:flex;
   align-items:center;
   justify-content:space-around;
-  padding: 30px 20px;
+  margin:auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 30px 80px;
   background:#3882f6;
   color:white;
-  margin: 100px 300px;
   border: 10px solid #3882f6;
+  max-width:60%;
   border-radius: 10px;
-  gap: 10px;
+  gap: 20px;
   flex-wrap:wrap;
+}
+
+.action-text-container{
+  margin-right: 50px;
 }
 
 .call-to-action{
