@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
 body{
   margin: 0;
   display:flex;
@@ -8,14 +14,14 @@ body{
 .content{
    display:flex;
    flex-direction:column;
-   width: 100%;
+  width: min(100%, 100rem);
 }
 
 /*header and footer*/
 .header{
   top: 0;
   position:fixed;
-  width:100%;
+  width: min(100%, 100rem);
 }
 
 .footer, .header, .header-links{
@@ -67,7 +73,7 @@ img{
 }
 
 .main-blurb{
-  margin: 0px 0px 10px;
+  margin: 15px 0px 15px 0px;
   color:whitesmoke;
 }
 
